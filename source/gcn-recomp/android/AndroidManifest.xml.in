@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="@G_ANDROID_PACKAGE@">
+    <uses-permission android:name="android.permission.INTERNET" />
+    @GCN_ANDROID_FEATURE@
+    <application android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+        android:label="@G_LABEL@" android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher" android:hasCode="true">
+        <activity android:name=".TandemActivity"
+android:screenOrientation="landscape"
+            android:label="@G_LABEL@" android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value="@G_NAME@" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+        <activity
+            android:name="com.epicgames.mobile.eossdk.EOSAuthHandlerActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+    </application>
+</manifest>
