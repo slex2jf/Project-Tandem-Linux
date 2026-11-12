@@ -21,6 +21,10 @@ Previous release: [Linux V1.0](https://github.com/slex2jf/Project-Tandem-Linux/r
 - Support for selecting a compatible game image.
 - No game ISO included.
 
+## Screenshots
+
+Ainda não há uma captura pública aprovada da versão Linux. Nenhuma janela do Project Tandem Linux estava em execução durante esta verificação; uma imagem será adicionada após uma captura real do jogo.
+
 ## Installation
 
 ### 1. Download
